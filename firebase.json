@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/ops-timesheet",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
