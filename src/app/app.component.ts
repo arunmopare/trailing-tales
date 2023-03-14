@@ -80,6 +80,6 @@ export class AppComponent {
   copyToClipboard() {
     navigator.clipboard.writeText(this.finalMessage)
     this.clipboardColor = "success"
-    this.clipboardText = "Copied to Clipboard"
+    this.clipboardText = "Copied"
   }
 }
